@@ -66,3 +66,49 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Airflow files (keep only DAG)
+airflow.cfg
+airflow.db
+logs/
+plugins/
+*.bat
+*.txt
+
+# Documentation and guides (keep only README and TASK files)
+*_GUIDE.md
+*_SUMMARY.md
+*_COMPLETION*.md
+*_RESULTS.md
+*_ALTERNATIVE.md
+*_STEP_BY_STEP.md
+*_ACCESS_GUIDE.md
+*_SETUP_SUMMARY.md
+PROJECT_SUMMARY.md
+COMPLETE_ASSIGNMENT_SUMMARY.md
+EC2_STEP_BY_STEP.md
+AWS_*.md
+AIRFLOW_*.md
+DOCKER_*.md
+
+# Demo and test files
+demo_*.py
+test_api_simple.py
+simulate_*.py
+*_test_commands.txt
+*_commands.txt
+docker-hub-commands.txt
+curl_test_commands.txt
+api_test_commands.txt
+
+# Scripts
+push_to_dockerhub.py
+run_api_server.py
+start_*.bat
+check-*.bat
+build-and-run.bat
+airflow-setup.bat
+
+# Config files not needed for submission
+s3-bucket-policy.json
+.dockerignore
