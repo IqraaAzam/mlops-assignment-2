@@ -23,7 +23,7 @@ mlops-assignment/
 ## Assignment Deliverables
 
 ### 1. GitHub Repository
-- **Link**: [Your GitHub Repository URL]
+- **Link**: https://github.com/IqraaAzam/mlops-assignment-2
 - Clean project structure with essential files only
 - Complete source code and configuration files
 
